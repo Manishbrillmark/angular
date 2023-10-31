@@ -25,9 +25,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstarp/dist/css/bootstarp.min.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/bootstarp/dist/js/bootstarp.min.js"]
           },
           "configurations": {
             "production": {
